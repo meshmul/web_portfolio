@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--CSS style-->
+  <link rel="stylesheet" type="text/css" href="styles/style.css"/>
+  <!--google fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Poppins:ital@1&family=Work+Sans:wght@400;500;800&display=swap" rel="stylesheet">
+  <!--Animate CSS CDN-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" integrity="sha512-c42qTSw/wPZ3/5LBzD+Bw5f7bSF2oxou6wEb+I/lqeaKV5FDIfMvvRp772y4jcJLKuGUOpbJMdg/BTl50fJYAw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  
+
+  <title>Mesfin Muleta | Web Developer</title>
+</head>
+
+<br>
+
+<body>
+
+  <!--Navbar-->
+  <nav>
+    <h1>Mesfin Muleta</h1>
+    <ul class="navigation">
+      
+      <li><a href="/web_portfolio/styles/images/Mesfin Muleta resume.pdf" class="nav_link">Resume</a></li>
+      <li><a href="#skills" class="nav_link">Skills</a></li>
+      <li><a href="#projects" class="nav_link">Projects</a></li>
+      <li><a href="#contact" class="nav_link">Contact</a></li>              
+    </ul>
+    
+  </nav>
+   
+<!--Main-->
+
+<main>
+  <div class="welcome">
+    <h1>Welcome<br>to my<br>Portfolio</h1>
+    <p>Junior Web Developer<br>Mental Health Advocate</p>
+    <br>
+ 
+</main>
+
+ 
+
+
+
+
+<br>
+<section class="more_about">
+      <h2>More About Me</h2>
+      <p>
+        A junior web developer passionate about creating engaging and user-friendly websites. I have recently embarked on my journey in the world of web development and I'm excited to learn and grow in this dynamic field.
+      </p>
+      <br>
+      <p>
+        My interest in web development started when I realized the power of technology in shaping the online experiences of users. I am fascinated by the endless possibilities that web development offers, from crafting beautiful and functional designs to implementing interactive features that enhance user engagement.
+
+      </p>
+       
+      
+    </section>
+<br>
+<!--skills section-->
+ <section class="skills" id="skills">
+      <h2 class="skill-header">My Top Skills</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="styles/icons/html-5.svg"
+            alt="html icon"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="styles/icons/css3.svg"
+            alt="css icon"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="styles/icons/bootstrap.svg"
+            alt="bootstrap icon"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="styles/icons/github.svg"
+            alt="css icon"
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="styles/icons/javascript.svg"
+            alt="bootstrap icon"
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!--project section-->
+
+  <section class="projects" id="projects">
+    <h2 class="projects-title">Some of my Recent Projects</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img class="project-pic"  src="styles/images/coffee.png" alt="cup of coffee" loading="lazy" class="project-pic"/> 
+          <h3 class="project-title">Tsunami coffee</h3>
+          <p class="project-details">
+           Added animations to an existing static web page
+          </p>
+          <a href="https://www.codecademy.com/projects/practice/tsunami-coffee" target="_blank" class="project-link">Click me</a>
+      </div>
+        <div class="project-container project-card">
+          <img class="project-pic" src="styles/images/odin.jpeg"alt="picture of odin" loading="lazy"/> 
+          <h3 class="project-title">The Odin Project</h3>
+          <p class="project-details">
+            The Odin Project is an open-source community dedicated to providing the best information sources to take you from zero to a full-stack developer. 
+          </p>
+          <a href="https://www.theodinproject.com/dashboard" target="_blank" class="project-link">Click me</a>
+        </div>
+        <div class="project-container project-card">
+          <img class="project-pic" src="styles/images/league.png"alt="book cover" loading="lazy"/> 
+          <h3 class="project-title"></h3>
+          <p class="project-details">
+            Added animations to an existing static web page. 
+          </p>
+          <a href="https://www.codecademy.com/projects/practice/transitions-book" target="_blank" class="project-link">Click me</a>
+        </div>
+        </div>
+  </section>
+
+  <!--contact me-->
+
+  <section class="contact" id="contact">
+    <h2>Get in touch</h2>
+     <div class="contact-container">
+      <div class="contact-form">
+        <form action="https://formsubmit.co/meshmul@icloud.com" method="POST">
+          <div class="form-control">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="sender-name" placeholder="Enter your name" class="input-field" required/>
+          </div>
+      </div>
+      <div class="form-control">
+        <label for="email">Email:</label>
+          <input type="email" id="email" name="sender-email" placeholder="Enter Your Email" class="input-field"
+             required/>  
+      </div>
+            <div class="form-control">
+              <label for="message">Message:</label>
+              <textarea id="message"cols="60"rows="10"placeholder="Enter Your Message"name="message"   class="input-field" required></textarea>
+            </div>
+            <input type="submit" value="Submit" id="submit-btn" class="submit-btn"/>
+          </form>
+        </div>
+      </div>
+    </section>
+
+<!--socials-->
+
+  <section>
+
+  
+    <div class="socials">
+      <a href="https://www.linkedin.com/authwall?trk=qf&original_referer=https://www.google.com/&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2F" target="_blank"
+        ><img
+          src="/web_portfolio/styles/icons/icons8-linkedin.gif"alt="Linkedin gif"loading="lazy"class="socicon"/></a>
+      <a href="https://www.instagram.com/" target="_blank"
+        ><img
+          src="/web_portfolio/styles/icons/icons8-instagram.gif"
+          alt="Instagram gif"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/meshmul" target="_blank"
+        ><img
+          src="/web_portfolio/styles/icons/icons8-github.gif"
+          alt="github gif"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://twitter.com/" target="_blank"
+        ><img src="/web_portfolio/styles/icons/icons8-twitter.gif" alt="Twitter git" class="socicon" loading="lazy"
+      /></a>
+    </section>      
+</body>
+
+<br>
+
+  <footer style="text-align: center;">
+    <p>&copy; Created by Mesfin Muleta | 2023 | All rights reserved.</p>
+</footer>
+
+</html>
+
+
+
